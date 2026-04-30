@@ -1,10 +1,14 @@
 import React from 'react'
+import SubjectGrid from './SubjectGrid';
+import DashboardSections from './MyLearning';
 
 const Home = () => {
   return (
     <div>
-     <h1>This is home page</h1>
+     <SubjectGrid/>
+     <DashboardSections/>
     </div>
+   
   )
 }
 
